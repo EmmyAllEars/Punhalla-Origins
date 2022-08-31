@@ -1,0 +1,13 @@
+{
+    "name": "Launch",
+    "description": "d r a g o n l a u n c h",
+    "type": "origins:launch",
+    "cooldown": 500,
+    "speed": 10,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/resource_bar.png",
+        "bar_index": 4
+    },
+    "key": "primary"
+}

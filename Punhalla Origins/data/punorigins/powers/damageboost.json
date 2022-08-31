@@ -1,0 +1,11 @@
+{
+    "name": "MoreAttackDamage",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.attack_damage",
+        "operation": "addition",
+        "value": 5,
+        "name": "MoreAttackdamage"
+    },
+    "update_health": false
+}

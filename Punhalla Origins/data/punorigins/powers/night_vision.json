@@ -1,0 +1,11 @@
+{
+    "name": "Ocular Adaptation",
+    "description": "Your eyes adjust at night to allow you to see better.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:submerged_in",
+        "fluid": "water"
+    },
+    "type": "origins:night_vision",
+    "strength": 0.4
+}

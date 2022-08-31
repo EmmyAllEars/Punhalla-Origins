@@ -1,0 +1,11 @@
+{
+    "name": "Sturdy",
+    "description": "Your body is able to absorb more damage before requiring repair. Due to the increased weight, you fall faster and move through cobwebs unhindered.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.max_health",
+        "operation": "multiply_base",
+        "value": 2
+    },
+    "update_health": true
+}

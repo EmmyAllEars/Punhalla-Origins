@@ -1,0 +1,10 @@
+{
+    "name": "Anti-Flight",
+    "description": "you are able to fly but you must be at full power..",
+    "condition": {
+        "type": "origins:health",
+        "comparison": "==",
+        "compare_to": 20
+    },
+    "type": "origins:creative_flight"
+}

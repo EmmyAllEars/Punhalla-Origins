@@ -1,0 +1,33 @@
+{
+    "name": "Weak Arms",
+    "description": "When not under the effects of a strength potion, you mine natural stone much more slowly if it is adjacent to two or more natural stone blocks.",
+    "loading_priority": 1,
+    "condition": {
+        "inverted": true,
+        "type": "origins:status_effect",
+        "effect": "minecraft:strength"
+    },
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:in_tag",
+                "tag": "origins:natural_stone"
+            },
+            {
+                "type": "origins:adjacent",
+                "adjacent_condition": {
+                    "type": "origins:in_tag",
+                    "tag": "origins:natural_stone"
+                },
+                "comparison": ">",
+                "compare_to": 2
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -0.5
+    }
+}

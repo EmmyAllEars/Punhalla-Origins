@@ -1,0 +1,12 @@
+{
+    "name": "Anti-Matter",
+    "description": "A figure Made up of Antimatter That was made at the dawn of time and almost forgetten... its believers are  trying to get it  back.. but it is allready back. and that will be YOU",
+    "powers": [
+        "punorigins:flight",
+        "punorigins:move_faster"
+    ],
+    "icon": {
+        "item": "minecraft:ender_eye"
+    },
+    "impact": 3
+}

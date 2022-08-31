@@ -1,0 +1,5 @@
+{
+    "type": "origins:phasing",
+    "render_type": "none",
+    "view_distance": 10
+}

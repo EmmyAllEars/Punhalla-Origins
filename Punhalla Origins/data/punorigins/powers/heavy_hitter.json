@@ -1,0 +1,10 @@
+{
+    "name": "Heavy Hitter",
+    "description": "Your attacks hit harder than anyone expects.",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "addition",
+        "value": 2,
+        "name": "Extra damage"
+    }
+}

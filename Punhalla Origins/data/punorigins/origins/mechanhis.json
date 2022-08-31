@@ -1,0 +1,17 @@
+{
+    "name": "Mechanhis",
+    "description": "You awaken to consciousness in a verdant world with no clue as to your creators. Your metal joints creak with corrosion, but there is no doubt: you are alive.",
+    "powers": [
+        "punorigins:heavy_hitter",
+        "punorigins:ore_affinity",
+        "punorigins:corrosion",
+        "punorigins:sturdy",
+        "punorigins:actuators",
+        "origins:no_cobweb_slowdown",
+        "punorigins:night_vision"
+    ],
+    "icon": {
+        "item": "minecraft:obsidian"
+    },
+    "impact": 2
+}

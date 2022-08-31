@@ -1,0 +1,31 @@
+{
+    "name": "Corrosion",
+    "description": "Corrosion is a natural process that converts a refined metal into a more chemically stable oxide. The process is accelerated in water, increasingly slowing you until you can dry off. ",
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:fluid_height",
+                "fluid": "water",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            {
+                "type": "origins:in_rain"
+            }
+        ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -20,
+    "max_stacks": 361,
+    "duration_per_stack": 10,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:slowness",
+        "duration": 100,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    }
+}

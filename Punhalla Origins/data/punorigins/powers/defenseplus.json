@@ -1,0 +1,12 @@
+{
+    "name": "Defense++",
+    "description": "Defense but really good",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.armor",
+        "operation": "addition",
+        "value": 30,
+        "name": "Defense"
+    },
+    "update_health": false
+}

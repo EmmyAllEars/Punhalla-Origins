@@ -1,0 +1,7 @@
+{
+    "name": "Actuators",
+    "description": "Your mechanical legs automatically adapt to rough terrain, preventing fall damage.",
+    "type": "origins:modify_falling",
+    "velocity": 1,
+    "take_fall_damage": false
+}

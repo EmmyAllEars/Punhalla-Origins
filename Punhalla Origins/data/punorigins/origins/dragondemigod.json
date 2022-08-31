@@ -1,0 +1,25 @@
+{
+    "name": "Dragon Demi God",
+    "description": "After Killing What the Message said was the traitor you feel more powerful, but you also feel more... guilty",
+    "powers": [
+        "punorigins:boosttest",
+        "punorigins:defenseupgrade",
+        "punorigins:health_boost_upgrade",
+        "punorigins:launch",
+        "punorigins:nofalldamage",
+        "punorigins:elytra",
+        "punorigins:damageboost"
+    ],
+    "icon": {
+        "item": "minecraft:elytra"
+    },
+    "upgrades": [
+        {
+            "condition": "minecraft:end/kill_dragon",
+            "origin": "punorigins:dragongod",
+            "announcement": "you- you did it. you killed the traitor"
+        }
+    ],
+    "unchoosable": true,
+    "impact": 1
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Elytra",
+    "description": "You are Dragon",
+    "type": "origins:elytra_flight",
+    "render_elytra": true
+}

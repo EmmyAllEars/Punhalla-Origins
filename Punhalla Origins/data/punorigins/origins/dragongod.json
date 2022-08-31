@@ -1,0 +1,18 @@
+{
+    "name": "DragonG O D",
+    "description": "you have gained so much.... ever since you were a small dragonkin...",
+    "powers": [
+        "punorigins:damageboostplus",
+        "punorigins:defenseplus",
+        "punorigins:health_boost_plus",
+        "punorigins:boosttest",
+        "punorigins:launch",
+        "punorigins:elytra",
+        "punorigins:nofalldamage"
+    ],
+    "icon": {
+        "item": "minecraft:elytra"
+    },
+    "unchoosable": true,
+    "impact": 1
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Health Boost++",
+    "description": "You Have Become  god and so you have a lot of health",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 40,
+        "name": "Max Health increase"
+    },
+    "update_health": true
+}

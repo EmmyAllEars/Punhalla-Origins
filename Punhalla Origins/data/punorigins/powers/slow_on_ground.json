@@ -1,0 +1,22 @@
+{
+    "name": "§4§nDraconic Physiology",
+    "description": "The Old Magic blah blah blah basicly u move slow when not flying\n",
+    "condition": {
+        "type": "origins:block_collision",
+        "offset_x": 0,
+        "offset_y": -1,
+        "offset_z": 0
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -15,
+    "max_stacks": 15,
+    "duration_per_stack": 5,
+    "tick_rate": 1,
+    "effect": {
+        "effect": "minecraft:slowness",
+        "duration": 1000000,
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon": false
+    }
+}

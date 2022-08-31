@@ -1,0 +1,30 @@
+{
+    "name": "DragonKin",
+    "description": "All but one Dragon fled the end... You are a descendent of the ones that fled",
+    "powers": [
+        "punorigins:elytra",
+        "punorigins:launch",
+        "punorigins:boosttest",
+        "punorigins:slow_on_ground",
+        "punorigins:nofalldamage",
+        "punorigins:health_boost",
+        "punorigins:defense",
+        "punorigins:damageboost"
+    ],
+    "icon": {
+        "item": "minecraft:elytra"
+    },
+    "upgrades": [
+        {
+            "condition": "minecraft:story/shiny_gear",
+            "origin": "punorigins:dragondemigod",
+            "announcement": "You feel ready to fight... but you arent"
+        },
+        {
+            "condition": "minecraft:story/obtain_armor",
+            "origin": "punorigins:dragonkin",
+            "announcement": "You get a message after getting iron armor. They want you to kill a traitor: the Ender Dragon:."
+        }
+    ],
+    "impact": 1
+}

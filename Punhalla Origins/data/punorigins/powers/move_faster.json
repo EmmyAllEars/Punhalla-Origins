@@ -1,0 +1,16 @@
+{
+    "name": "Move Faster",
+    "description": "Being a deity from the beginning of time, you are slightly faster then the normal player",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -15,
+    "max_stacks": 15,
+    "duration_per_stack": 10,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:speed",
+        "duration": 10,
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon": false
+    }
+}

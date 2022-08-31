@@ -1,0 +1,12 @@
+{
+    "name": "MoreAttackDamage+",
+    "description": "your claws are like netherite",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "generic.attack_damage",
+        "operation": "addition",
+        "value": 11,
+        "name": "MoreAttackdamage"
+    },
+    "update_health": false
+}

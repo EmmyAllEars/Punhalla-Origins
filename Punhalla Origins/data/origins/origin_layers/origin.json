@@ -1,0 +1,12 @@
+{
+    "origins": [
+        "punorigins:mechanhis",
+        "punorigins:feline",
+        "punorigins:dragonkin",
+        "punorigins:dragondemigod",
+        "punorigins:dragongod",
+        "punorigins:antimatter"
+    ],
+    "enabled": true,
+    "allow_random": true
+}
